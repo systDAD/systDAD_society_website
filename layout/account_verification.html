@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Verification</title>
+    <link rel="stylesheet" href="../icons/fw/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/diy101.css">
+</head>
+<body>  
+
+    <div class="account_verification glass1 clay1">
+        
+        <form action="" id="account-verification">
+            <legend><h1>Account Verification</h1></legend>
+
+            <p class="account-verification-text">We sent you a Verification code to your email:@gmail.com enter code to verify your account </p>
+            <input type="text" name="verification-code" id="verification-code" placeholder="Enter verification code here">
+            <input type="submit" value="VERIFY" id="verify"> 
+            
+            <p class="resend">
+                <span class="not-sent">Not sent?</span>
+                <input type="button" value="Resend" id="resend">
+                <span class="resend-countdown">{{in countdown}}</span>
+            </p>
+            
+        </form>
+        
+        
+    </div>
+    
+</body>
+<script src="../js/diy101.js"></script>
+</html>
