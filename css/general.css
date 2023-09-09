@@ -1,0 +1,126 @@
+
+
+
+
+form{
+    display: block;
+    width: 100%;
+    padding: 1.8rem;
+   
+
+}
+form  *{
+    display: block;
+    width: 100%;
+    padding:1.5rem .75rem ;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+form ::placeholder {
+    color: inherit;
+}
+.form-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+
+}
+
+form legend,
+form label {
+    margin-bottom: 0;
+    padding:0;
+    border-radius: none;
+
+}
+form legend {
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+form textarea {
+    border: 1px solid black;
+}
+
+
+form input{
+    border-bottom: 1px solid black;
+    padding: 1rem 0.75rem;
+}
+form input[type="submit"]{
+    text-transform: uppercase;
+    border-radius: 2rem;
+    margin-bottom: 0;
+    max-width: 650px;
+    text-align: center;
+    
+}
+
+*********
+
+.fab,
+.fas,
+.far,
+.fa {
+    font-size: 1.3rem;
+
+}
+
+.clay1{
+    width: 100%;
+    border-radius: 2rem;
+    background: transparent;
+    box-shadow: 7px 7px 15px #45566754,
+    -8px -8px 15px rgb(81 101 121 / 4%),
+    inset -5px -4px 13px 0px rgb(81 101 121 / 35%),
+    inset 6px 7px 12px 0px rgb(81 101 121 / 94%);
+    
+}
+.clay2 {
+    width: 100%;
+    border-radius: 2rem;
+    background: transparent;
+    box-shadow: 10px 10px 20px #cbced1,
+    -10px -10px 20px #ffffff;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+ footer ul,
+ footer li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+
+ footer a{
+    width: 100%;
+    text-decoration: none;
+ }
+ footer h1,
+ footer h2,
+ footer h3,
+ footer h4,
+ footer h5,
+ footer h6 {
+    margin: 0;
+    padding: 0;
+    
+ }
+

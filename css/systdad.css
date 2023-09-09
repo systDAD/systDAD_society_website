@@ -1,0 +1,160 @@
+
+:root {
+    --col1:#ffffff;
+    --col2:#000000;
+    --col3:#0440e4;
+    --col4:#fcf0f0;
+
+    --bgcol1:var(--col1);
+    --bgcol2:var(--col2);
+    --bgcol3:var(--col2);
+    --bgcol4:var(--col4);
+
+    --bd1:1px solid var(--col1);
+    --bd2:1px solid var(--col2);
+    --bd3:1px solid var(--col3);
+    --bd3:1px solid var(--col4);
+
+}
+
+
+[class~="flex"] {
+    display:flex ;
+    flex-grow: 1;
+    /* justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center; */
+}
+[class~="flex-c"] {
+    flex-direction: column;
+}
+[class~="flex-r"] {
+    flex-direction: row;
+}
+[class~="flex-rw"] {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.content-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction:row ;
+}
+.content-card {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    width: 15em;
+    height: 13em;
+    max-width: 30em;
+    /* border: var(--bd); */
+    background-color: rgba(255, 255, 255, 0.966);
+
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    line-height: 1.6;
+}
+
+
+.icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill:green;
+  }
+  
+
+
+body{
+}
+
+header{
+    background-image:url("../images/bg2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-blend-mode: overlay;
+    height: 100vh;
+    color: #ffffff;
+}
+
+ /********* nav **********/
+nav {
+    position: sticky;
+    top: 0;
+
+}
+nav ul,
+nav li {
+    list-style: none;  
+
+}
+.navlinks-wrapper {
+    
+
+}
+
+.navlink {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    padding-block: 1rem 0.5rem;
+    padding-inline:1.5rem;
+  
+}
+.navlink:is(:hover,:focus,:focus-visible,:focus-within) {
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.nav-logo {
+  
+    font-size: 2rem;
+  
+}
+
+.nav-status-bar {
+    background-color: #ffffff;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+.nav-status-bar .navlink{
+    padding-bottom: 0;
+}
+
+.call-to-action {
+    border: 1px solid var(--col1);
+    border-radius: 5px;
+   
+}
+
+.join-us-btn {
+    background: transparent;
+    border: 1px solid var(--col1);
+    color: var(--col1);
+    border-radius: .35rem;
+    padding: 1em;
+}
+.join-us-btn:is(:hover,:focus,:focus-visible,:focus-within) {
+    background: #ffffff;
+    color: black;
+    transition: all 0.3s;
+}
+
+
+
+
